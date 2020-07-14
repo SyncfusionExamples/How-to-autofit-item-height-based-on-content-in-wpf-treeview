@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyName>AutoFitContentDemo</AssemblyName>
+    <RootNamespace>AutoFitContentDemo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Resource Include="App.ico" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\collapse.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\expand.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_exe.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_folder.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_img0.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_img1.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_mp3.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_pdf.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_png.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_ppt.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_video.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_word.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Resource Include="Images\treeview_zip.png" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" />
+    <Reference Include="Syncfusion.SampleLayout.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.SampleLayout.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfSkinManager.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.SfSkinManager.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfTreeView.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.SfTreeView.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Themes.MaterialLight.WPF">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Themes.MaterialLight.WPF.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity">
+      <HintPath>..\..\..\Common\Data\Interactivity_Binaries\WPF\4.0\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing">
+      <HintPath>$(SyncfusionInstallLocation)\precompiledassemblies\netcoreapp3.1\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
